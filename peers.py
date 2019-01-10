@@ -10,4 +10,4 @@ class KafkaPeers(Endpoint):
 
         broker_count = #peers_relations + 1
         """
-        return len(self.relations) + 1 
+        return len(self.relations[0].units) + 1 
